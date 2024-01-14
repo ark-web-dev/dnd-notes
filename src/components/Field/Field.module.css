@@ -1,0 +1,63 @@
+.field {
+  width: 50%;
+  height: 60svh;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  position: relative;
+  overflow: auto;
+  outline: 10px solid rgb(209, 210, 215);
+  border-radius: 20px;
+  z-index: 0;
+  gap: 8px;
+  padding: 7px;
+  scrollbar-width: thin;
+  scrollbar-color: gray #333;
+}
+
+.field::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.field::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
+.field::-webkit-scrollbar-track {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.field::-webkit-scrollbar-button {
+  background-color: #000;
+  border-radius: 5px;
+  display: none;
+}
+
+.fieldTitle {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .field {
+    width: 100%;
+    height: 260px;
+    padding-top: 0;
+  }
+  .fieldTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .field {
+    height: 220px;
+  }
+}
