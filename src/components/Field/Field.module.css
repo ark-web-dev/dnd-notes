@@ -48,7 +48,7 @@
 @media (max-width: 767px) {
   .field {
     width: 100%;
-    height: 260px;
+    height: 240px;
     padding-top: 0;
   }
   .fieldTitle {
@@ -58,6 +58,6 @@
 
 @media (max-width: 400px) {
   .field {
-    height: 220px;
+    height: 210px;
   }
 }
