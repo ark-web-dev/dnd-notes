@@ -1,0 +1,16 @@
+.notes {
+  width: 210px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .notes {
+    width: 150px;
+    height: 120px;
+  }
+}

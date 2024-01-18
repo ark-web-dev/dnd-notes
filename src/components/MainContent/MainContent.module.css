@@ -1,0 +1,8 @@
+.mainContent {
+  margin: 0 auto;
+  padding: 20px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 100%;
+}
