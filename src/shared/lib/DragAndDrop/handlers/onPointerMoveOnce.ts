@@ -3,7 +3,7 @@ import { dragAndDrop } from '../config/dragAndDrop';
 export const onPointerMoveOnce = () => {
   const { currentDragElement } = dragAndDrop;
 
-  if (!currentDragElement || dragAndDrop.isMoved) return;
+  if (!currentDragElement) return;
 
   document.body.append(currentDragElement);
 
