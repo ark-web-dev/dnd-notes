@@ -1,4 +1,4 @@
-import { createElement } from '@/shared/lib';
+import { createElement } from '@/shared/lib/dom/createElement';
 import styles from './Notes.module.css';
 import { Note } from '../Note/Note';
 

@@ -1,4 +1,5 @@
-import { createElement, generateRGBColor } from '@/shared/lib';
+import { generateRGBColor } from '@/shared/lib/common';
+import { createElement } from '@/shared/lib/dom/createElement';
 import styles from './Note.module.css';
 
 export const Note = () => {
