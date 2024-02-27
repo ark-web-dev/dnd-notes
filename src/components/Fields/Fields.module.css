@@ -6,6 +6,12 @@
   padding-bottom: 20px;
 }
 
+.fieldRelative {
+  :global .targetNote {
+    position: absolute;
+  }
+}
+
 @media (max-width: 500px) {
   .fields {
     flex-wrap: wrap;

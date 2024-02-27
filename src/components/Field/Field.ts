@@ -1,15 +1,15 @@
-import { createElement } from '@/shared/lib';
+import { createElement } from '@/shared/lib/dom/createElement';
 import styles from './Field.module.css';
 
 type FieldProps = {
-  id: string;
+  className: string;
   title: string;
 };
 
-export const Field = ({ id, title }: FieldProps) => {
+export const Field = ({ className, title }: FieldProps) => {
   return createElement(
     'div',
-    { className: styles.field, id: id },
+    { className: [styles.field, className].join(' ') },
     createElement('h2', { className: styles.fieldTitle }, title)
   );
 };
